@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Calculator</title>
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+        .main{
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+            margin: 70px;
+            padding: 20px;
+            border-radius: 10%;
+        }
+
+        button{
+            border-radius: 60%;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul class="nav_link">
+                <li><a href="index.html">About</a></li>
+				<li><a href="contact page.html">Contact</a></li>
+				<li><a href="register page.html">Register</a></li>
+				<li><a href="login page.html">Login</a></li>
+				<li><a href="Calculator.html">Calculator</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <div class="main">
+        <div>
+            <textarea name="" id="flexCalc" placeholder="0.00" cols="30" rows="10"></textarea>
+        </div>
+        <div class="parent">
+            <div class="child"><button>C</button></div>
+            <div class="child"><button>7</button></div>
+            <div class="child"><button>4</button></div>
+            <div class="child"><button>1</button></div>
+            <div class="child"><button>+/-</button></div>
+        </div>
+        <div class="parent">
+            <div class="child"><button>()</button></div>
+            <div class="child"><button>8</button></div>
+            <div class="child"><button>5</button></div>
+            <div class="child"><button>2</button></div>
+            <div class="child"><button>0</button></div>
+        </div>
+        <div class="parent">
+            <div class="child"><button>%</button></div>
+            <div class="child"><button>9</button></div>
+            <div class="child"><button>6</button></div>
+            <div class="child"><button>3</button></div>
+            <div class="child"><button>.</button></div>
+        </div>
+        <div class="parent">
+            <div class="child"><button>/</button></div>
+            <div class="child"><button>X</button></div>
+            <div class="child"><button>-</button></div>
+            <div class="child"><button>+</button></div>
+            <div class="child"><button>=</button></div>
+        </div>
+    </div>
+
+    <footer id="foot">
+		A CodeBanks Production &copy; 2022, all rights reserved
+	</footer>
+</body>
+</html>

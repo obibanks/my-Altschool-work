@@ -1,0 +1,52 @@
+body{
+    margin: auto 0;
+    background-color: coral;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #56b870;
+}
+
+.picz{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav_link li a:hover{
+    color: chartreuse;
+}
+
+h1{
+    color: darkgreen;
+}
+
+aside{
+    display: grid;
+    background-color: firebrick;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}

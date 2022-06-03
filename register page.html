@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<ul class="nav_link">
+                <li><a href="index.html">About</a></li>
+				<li><a href="contact page.html">Contact</a></li>
+				<li><a href="register page.html">Register</a></li>
+				<li><a href="login page.html">Login</a></li>
+				<li><a href="Calculator.html">Calculator</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <h1> Register</h1>
+    <p>It's free and always will be.</p>
+
+    <form action="" method="post">
+        <label for="firstName">First Name:</label><br>
+        <input name="firstName" type="text" placeholder="First Name" required><br><br>
+        
+        
+        <label for="lastName">Last Name:</label><br>
+        <input name="lastName" type="text" placeholder="Last Name" required/><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input name="phone" type="text"><br><br>
+
+        <label for="gender">Gender: </label><br>
+        <select name="gender" id="gender">
+            <option name="gender" value="">Please choose</option>
+            <option name="gender" value="Male">Male</option>
+            <option name="gender" value="Female">Female</option>
+            <option name="gender" value="Non-binary">Non-binary</option>
+        </select><br><br>
+
+        <label for="country">Country: </label><br>
+        <input type="text" placeholder="Country" name="country"><br><br>
+
+        <label for="state">State/Region: </label><br>
+        <input type="text" placeholder="State" name="state"><br><br>
+
+        <label for="username">Username: </label><br>
+        <input type="text" placeholder="Username" name="username"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" placeholder="Password" required><br><br>
+
+        <label> Confirm Password:</label><br>
+        <input type="password" placeholder="Password" required><br><br>
+
+        <label for="birthday">Birthday: </label><br>
+        <input type="date" name="birthday"><br><br>
+
+        <p>I agree to the terms and condition <input type="checkbox" name="T&C"></p><br>
+
+        <input type="submit"><br>
+
+        <p>Already have an account? <a href="login page.html">Just Login</a></p>
+    </form>
+
+    <footer id="foot">
+		A CodeBanks Production &copy; 2022, all rights reserved
+	</footer>	
+</body>
+</html>

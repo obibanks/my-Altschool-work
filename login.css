@@ -1,0 +1,35 @@
+body{
+    background-color: coral;
+    margin: auto 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #56b870;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav_link li a:hover{
+    color: chartreuse;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
