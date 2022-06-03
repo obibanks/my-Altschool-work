@@ -1,0 +1,73 @@
+body{
+    margin: auto 0;
+    background-color: #ddd
+}
+
+.section {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #17b0d6;
+}
+
+.alt-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* margin-right: auto; */
+}
+
+.my-pic{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+    margin: auto;
+}
+
+nav a{
+    color: chartreuse; 
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+a:hover{
+    color: rgb(226, 43, 186);
+}
+
+article {
+    justify-content: center;
+}
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.post2 {
+    display: flex;
+    justify-content: center;
+}
+
+.post3 {
+    display: grid;
+    background-color: rgb(189, 60, 60);
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
